@@ -1,0 +1,26 @@
+.produtos {
+    max-width: 640px;
+    width: 100%;
+    margin: 56px auto;
+
+    &__produto {
+        &--imagem {
+            width: 100%;
+        }
+
+        &--nome {
+            font-size: 1.2em;
+            margin: 8px 0;
+        }
+
+        &--descricao {
+            color: grey;
+        }
+    }
+
+    &__em-destaque {
+        border: 2px solid gold;
+        padding: 8px;
+        background-color: #ffff42;
+    }
+}
